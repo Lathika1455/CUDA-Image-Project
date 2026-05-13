@@ -40,20 +40,22 @@ Gray = 0.299 × R + 0.587 × G + 0.114 × B
 
 ## Build Instructions
 
-## Using CMake (recommended)
+## Using CMake 
 
 ```
 mkdir build
 cd build
 cmake ..
 make
-~~~
+```
+
 
 ## Using nvcc directly
 
 ```
 nvcc main.cu -o image_processor `pkg-config --cflags --libs opencv4`
 ```
+
 ## Run the Project
 
 ```
